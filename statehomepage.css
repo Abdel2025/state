@@ -23,7 +23,7 @@ body {
 	justify-content: space_between;
 }
 
-.nav {
+nav {
 	 width: 80%;
 	 margin: auto;
 	 padding: 35px 0;
@@ -139,7 +139,7 @@ body {
 	width: 130px;
 	cursor: pointer;
 	}
-	.nav {
+	nav {
 	 width: 85%;
 	}
 	.navbar ul li {
@@ -209,7 +209,7 @@ body {
 	width: 130px;
 	cursor: pointer;
 	}
-	.nav {
+	nav {
 	 width: 95%;
 	}
 	.navbar ul li {
@@ -281,7 +281,7 @@ body {
 	width: 110px;
 	cursor: pointer;
 	}
-	.nav {
+	nav {
 	 width: 95%;
 	}
 	.navbar ul li {
@@ -353,7 +353,7 @@ body {
 	width: 110px;
 	cursor: pointer;
 	}
-	.nav {
+	nav {
 	 width: 100%;
 	}
 	.navbar ul li {
