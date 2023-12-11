@@ -207,7 +207,7 @@ nav {
 	width: 130px;
 	cursor: pointer;
 	}
-	.nav {
+	nav {
 	 width: 90%;
 	}
 	.navbar ul li {
@@ -317,7 +317,7 @@ nav {
 	width: 130px;
 	cursor: pointer;
 	}
-	.nav {
+	nav {
 	 width: 100%;
 	}
 	.navbar ul li {
@@ -428,7 +428,7 @@ nav {
 	width: 110px;
 	cursor: pointer;
 	}
-	.nav {
+	nav {
 	 width: 100%;
 	}
 	.navbar ul li {
