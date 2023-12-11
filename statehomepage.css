@@ -23,7 +23,7 @@ body {
 	justify-content: space_between;
 }
 
-.navbar {
+.nav {
 	 width: 80%;
 	 margin: auto;
 	 padding: 35px 0;
@@ -66,6 +66,16 @@ body {
 
 .navbar ul li:hover::after {
 	width: 100%;
+}
+
+.close {
+	display: none;
+}
+
+.bar {
+	color: #fff;
+	cursor: pointer;
+	display: none;
 }
 
 .search-bar {
@@ -129,7 +139,7 @@ body {
 	width: 130px;
 	cursor: pointer;
 	}
-	.navbar {
+	.nav {
 	 width: 85%;
 	}
 	.navbar ul li {
@@ -199,7 +209,7 @@ body {
 	width: 130px;
 	cursor: pointer;
 	}
-	.navbar {
+	.nav {
 	 width: 95%;
 	}
 	.navbar ul li {
@@ -271,7 +281,7 @@ body {
 	width: 110px;
 	cursor: pointer;
 	}
-	.navbar {
+	.nav {
 	 width: 95%;
 	}
 	.navbar ul li {
@@ -343,7 +353,7 @@ body {
 	width: 110px;
 	cursor: pointer;
 	}
-	.navbar {
+	.nav {
 	 width: 100%;
 	}
 	.navbar ul li {
