@@ -14,7 +14,7 @@ body {
 
 .banner {
 	width: 100%;
-	height: 100vh;
+	height: 120vh;
 	padding: 3em;
 	background-image: linear-gradient(rgba(0,8,51,0.9),rgba(0,8,51,0.9)),url(hartford.jpg);
 	background-size: cover;
@@ -152,17 +152,15 @@ nav {
 	border-radius: 0px;
 	margin-bottom: 20px;
 	width: 40%;
-	padding: 0 40px;
+	padding: 0 20px;
 	box-sizing: border-box;
 	transition: 0.5s;
 	margin: auto;
-	height: 250px;
+	height: 330px;
 	text-align: center;
 	border: 1px solid #192F7A;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
-
-
 
 .information-col h3 {
 	text-align: center;
@@ -175,11 +173,18 @@ nav {
 	font-size: 20px;
 }
 
+.information-col h3:nth-of-type(6){
+	color: #000000;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	margin-top: 0px;
+}
+
 .information-col p {
 	font-size: 16px;
-	font-weight: 300;
+	font-weight: 600;
 	line-height: 22px;
-	padding: 10px;
+	padding: 0px;
 	text-align: center;
 	color: #000000;
 	font-family: 'Roboto', sans-serif;
@@ -187,12 +192,19 @@ nav {
 
 .informationicon {
 	margin: auto;
-	margin-top: 0px;
+	margin-top: 20px;
 	margin-bottom: 60px;
 	color: #fff;
 	border-radius: 80px;
 	width: 20%;
 	padding: 40px 0px;
+}
+
+.information-col:last-of-type .informationicon {
+	margin-bottom: 0px;
+	padding: 0;
+	border-radius: 0px;
+	margin-top: 40px;
 }
 
 .fa-passport, .fa-sack-dollar, .fa-paste, .fa-school-circle-check {
@@ -203,6 +215,11 @@ nav {
 
 
 @media only screen and (max-width: 1700px) and (min-width: 1350px) {
+	.banner {
+	width: 100%;
+	height: 115vh;
+	}
+	
 	.logo {
 	width: 130px;
 	cursor: pointer;
@@ -275,7 +292,7 @@ nav {
 	display: flex;
 	grid-column-gap: 0px;
 	padding-top: 300px;
-	width: 85%;
+	width: 90%;
 	margin: auto;
 }
 
@@ -284,12 +301,12 @@ nav {
 	background: #fff;
 	border-radius: 0px;
 	margin-bottom: 20px;
-	width: 40%;
+	width: 45%;
 	padding: 0 40px;
 	box-sizing: border-box;
 	transition: 0.5s;
 	margin: auto;
-	height: 250px;
+	height: 360px;
 	text-align: center;
 	border: 1px solid #192F7A;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -297,20 +314,21 @@ nav {
 	
 	.informationicon {
 	margin: auto;
-	margin-top: 0px;
+	margin-top: 30px;
 	margin-bottom: 60px;
 	color: #fff;
 	border-radius: 80px;
 	width: 20%;
 	padding: 40px 0px;
 	}
+	
 }
 
 
 @media only screen and (max-width: 1351px) and (min-width: 1130px) {
 	.banner {
 	width: 100%;
-	height: 100vh;
+	height: 115vh;
 	padding: 2em 0.5em;
 	}
 	
@@ -332,7 +350,7 @@ nav {
 	
 	.search-bar {
 	width: 100%;
-	max-width: 290px;
+	max-width: 280px;
 	background: rgba(255, 255, 255, 0.2);
 	display: flex;
 	align-items: center;
@@ -363,7 +381,7 @@ nav {
 	height: 35px;
 	background: #58629b;
 	cursor: pointer;
-	margin-right: 5px;
+	margin-right: 10px;
 	}
 	
 	.content {
@@ -387,7 +405,7 @@ nav {
 	display: flex;
 	grid-column-gap: 0px;
 	padding-top: 300px;
-	width: 85%;
+	width: 90%;
 	margin: auto;
 }
 
@@ -401,7 +419,7 @@ nav {
 	box-sizing: border-box;
 	transition: 0.5s;
 	margin: auto;
-	height: 250px;
+	height: 350px;
 	text-align: center;
 	border: 1px solid #192F7A;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -409,20 +427,25 @@ nav {
 	
 	.informationicon {
 	margin: auto;
-	margin-top: 0px;
+	margin-top: 30px;
 	margin-bottom: 60px;
 	color: #fff;
 	border-radius: 80px;
 	width: 20%;
 	padding: 40px 0px;
 	}
-	
+	.information-col:last-of-type .informationicon {
+	margin-bottom: 0px;
+	padding: 0;
+	border-radius: 0px;
+	margin-top: 40px;
+	}
 }
 
 @media only screen and (max-width: 1131px) and (min-width: 981px) {
 	.banner {
 	width: 100%;
-	height: 100vh;
+	height: 120vh;
 	padding: 2em 0.5em;
 	}
 	.logo {
@@ -512,7 +535,7 @@ nav {
 	box-sizing: border-box;
 	transition: 0.5s;
 	margin: auto;
-	height: 250px;
+	height: 400px;
 	text-align: center;
 	border: 1px solid #192F7A;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -520,19 +543,25 @@ nav {
 	
 	.informationicon {
 	margin: auto;
-	margin-top: 0px;
+	margin-top: 30px;
 	margin-bottom: 60px;
 	color: #fff;
 	border-radius: 80px;
 	width: 20%;
 	padding: 40px 0px;
 	}
+	.information-col:last-of-type .informationicon {
+	margin-bottom: 0px;
+	padding: 0;
+	border-radius: 0px;
+	margin-top: 40px;
+	}
 }
 
 @media only screen and (max-width: 980px) and (min-width: 350px) {
 	.banner {
 	width: 100%;
-	height: 220vh;
+	height: 240vh;
 	}
 	.logo {
 	width: 110px;
@@ -645,7 +674,7 @@ nav {
 	box-sizing: border-box;
 	transition: 0.5s;
 	margin: auto;
-	height: 250px;
+	height: 300px;
 	text-align: center;
 	border: 1px solid #192F7A;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -1208,7 +1237,7 @@ nav {
 }
 
 .connect h1{
-	margin-left: 280px;
+	margin-left: 11%;
 	margin-top: 60px;
 	margin-bottom: 20px;
 	font-size: 36px;
@@ -1216,17 +1245,27 @@ nav {
 	font-family: 'DM Sans', sans-serif;
 }
 
+.connect-section{
+	display: flex;
+	width: 100%;
+}
+
+.connect-boxes{
+	width: 100%;
+}
 
 .connect-row{
 	margin-bottom: 20px;
 	display: flex;
 	grid-column-gap: 0px;
-	width: 70%;
+	width: 85%;
 	margin: auto;
+	float: left;
+	margin-left: 14%;
 }
 
 .connect-box{
-	width: 400px;
+	width: 45%;
 	height: 250px;
 	background: #D3D3D3;
 	flex-basis: auto;
@@ -1258,19 +1297,59 @@ nav {
     text-decoration: underline;
 }
 
+aside{
+	width: 45%;
+	padding: 0 0px;
+	margin-left: 15px;
+	float: right;
+}
+
+aside h2{
+	font-family: 'DM Sans', sans-serif;
+	padding: 15px;
+	background: #192F7A;
+	color: white;
+	font-size: 22px;
+}
+
+.aside-box{
+	padding-bottom: 40px;
+	cursor: pointer;
+	border-bottom: 1px solid #A8A9AB;
+}
+
+.aside-box:hover {
+	background-color: #F1F1F1;
+}
+
+.aside-box h1{
+	font-size: 16px;
+	margin-top: 0px;
+	margin-left: 4%;
+	padding-top: 15px;
+}
+
+.aside-box p{
+	padding: 0 20px;
+	color: #4B83BF;
+}
+
+
+
+
 @media only screen and (max-width: 1870px) and (min-width: 1500px) {
 	.connect-row{
 	margin-bottom: 20px;
 	display: flex;
 	grid-column-gap: 0px;
-	width: 80%;
-	margin: auto;
+	width: 85%;
+	margin-left: 14%;
 	}
 	.connect h1{
 	margin-left: 11%;
 	}
 	.connect-box{
-	width: 32%;
+	width: 45%;
 	height: 250px;
 	background: #D3D3D3;
 	flex-basis: auto;
@@ -1279,6 +1358,42 @@ nav {
 	margin-bottom: 20px;
 	padding: 40px;
 	cursor: pointer;
+	}
+	
+	aside{
+	width: 45%;
+	padding: 0 0px;
+	margin-left: 15px;
+	float: right;
+	}
+	aside h2{
+		font-family: 'DM Sans', sans-serif;
+		padding: 15px;
+		background: #192F7A;
+		color: white;
+		font-size: 22px;
+	}
+
+	.aside-box{
+		padding-bottom: 40px;
+		cursor: pointer;
+		border-bottom: 1px solid #A8A9AB;
+	}
+
+	.aside-box:hover {
+		background-color: #F1F1F1;
+	}
+
+	.aside-box h1{
+		font-size: 16px;
+		margin-top: 0px;
+		margin-left: 4%;
+		padding-top: 15px;
+	}
+
+	.aside-box p{
+		padding: 0 20px;
+		color: #4B83BF;
 	}
 }
 
@@ -1287,14 +1402,15 @@ nav {
 	margin-bottom: 20px;
 	display: flex;
 	grid-column-gap: 0px;
-	width: 85%;
+	width: 90%;
 	margin: auto;
+	margin-left: 10%;
 	}
 	.connect h1{
 	margin-left: 8%;
 	}
 	.connect-box{
-	width: 32%;
+	width: 46%;
 	height: 250px;
 	background: #D3D3D3;
 	flex-basis: auto;
@@ -1304,21 +1420,64 @@ nav {
 	padding: 40px;
 	cursor: pointer;
 	}
+	
+	aside{
+	width: 45%;
+	padding: 0 0px;
+	margin-left: 15px;
+	float: right;
+	}
+	aside h2{
+		font-family: 'DM Sans', sans-serif;
+		padding: 15px;
+		background: #192F7A;
+		color: white;
+		font-size: 22px;
+	}
+
+	.aside-box{
+		padding-bottom: 40px;
+		cursor: pointer;
+		border-bottom: 1px solid #A8A9AB;
+	}
+
+	.aside-box:hover {
+		background-color: #F1F1F1;
+	}
+
+	.aside-box h1{
+		font-size: 16px;
+		margin-top: 0px;
+		margin-left: 4%;
+		padding-top: 15px;
+	}
+
+	.aside-box p{
+		padding: 0 20px;
+		color: #4B83BF;
+	}
 }
 
 @media only screen and (max-width: 1150px) and (min-width: 900px) {
+	.connect{
+	width: 100%;
+	height: 115vh;
+	padding: 3em;
+	}
+	
 	.connect-row{
 	margin-bottom: 20px;
 	display: flex;
 	grid-column-gap: 0px;
 	width: 90%;
 	margin: auto;
+	margin-left: 8%;
 	}
 	.connect h1{
 	margin-left: 6%;
 	}
 	.connect-box{
-	width: 32%;
+	width: 47%;
 	height: 250px;
 	background: #D3D3D3;
 	flex-basis: auto;
@@ -1333,7 +1492,7 @@ nav {
 @media only screen and (max-width: 900px) and (min-width: 300px) {
 	.connect{
 	width: 100%;
-	height: 220vh;
+	height: 165vh;
 	padding: 3em;
 	}
 	.connect-row{
