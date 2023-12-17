@@ -12,6 +12,18 @@ body {
 	overflow-y: scroll !important;
 }
 
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+}
+
 .banner {
 	width: 100%;
 	height: 100vh;
