@@ -12,15 +12,24 @@ body {
 	overflow-y: scroll !important;
 }
 
-.banner {
+.top-section{
 	width: 100%;
 	height: 120vh;
 	padding: 3em;
-	background-image: linear-gradient(rgba(0,8,51,0.9),rgba(0,8,51,0.9)),url(windsorlocks.jpg);
+	background-image: linear-gradient(rgba(0,8,51,0.9),rgba(0,8,51,0.9)),url(capitol.jpg);
 	background-size: cover;
 	background-position: center;
 	align-items: center;
 	justify-content: space_between;
+}
+
+.header {
+	width: 100%;
+	height: 20vh;
+	background-position: center;
+	align-items: center;
+	justify-content: space_between;
+	margin: auto;
 }
 
 nav {
@@ -550,7 +559,7 @@ nav {
 }
 
 @media only screen and (max-width: 980px) and (min-width: 350px) {
-	.banner {
+	.top-section {
 	width: 100%;
 	height: 240vh;
 	}
